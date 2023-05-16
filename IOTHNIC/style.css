@@ -3,11 +3,47 @@
 }
 
 body {
-    background-color: #9f8ff7
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    height:100vh;
+    background-color: #d8dedb;
 }
 
-h1{
-    font-weight:bold;
-    font-size:30px;
-    font-family:'Cascadia Mono'
+
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:500px;
+    background:white;
+    border-radius:10px;
 }
+
+    .center h1 {
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px;
+        font-family: 'Cascadia Mono';
+        border-bottom: 1px solid silver;
+    }
+
+    .center form{
+        padding: 0 40px;
+        
+    }
+    form .textfield{
+        position:relative;
+    /* border-bottom:2px solid;*/
+        margin:30px;
+    }
+input{
+        border-bottom:2px solid;
+        width:100%;
+        padding: 0 5px;
+        height:40px;
+        font-size:15px;
+        background:none;
+        outline:none;
+    }

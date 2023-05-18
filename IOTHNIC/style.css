@@ -8,7 +8,7 @@ body {
     overflow:hidden;
     height:100vh;
     background-color: #d8dedb;
-    background:url('Images/IOTHNIC.png'),no-repeat;
+    background:url('Images/IOTHNIC.png') no-repeat;
 }
 
 
